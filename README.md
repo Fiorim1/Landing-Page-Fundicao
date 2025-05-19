@@ -12,14 +12,6 @@ O projeto visa desenvolver uma Landing Page institucional em React para uma fund
 * HTML5
 * JavaScript (ES6+)
 
-### Funcionalidades Implementadas
-
-* Seção Institucional
-* Portfólio de Serviços
-* Formulário de Contato
-* CTA (Call to Action)
-* SEO e Acessibilidade
-
 ### Instruções para Execução
 
 1. Clone o repositório:
