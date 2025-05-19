@@ -1,0 +1,59 @@
+.contentbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Esconde qualquer parte da imagem fora do contêiner */
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.bg {
+    position: absolute;
+    /* Faz a imagem ficar atrás do texto */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Mantém a proporção da imagem e cobre todo o contêiner */
+    z-index: -1;
+    /* Coloca a imagem atrás do texto */
+    filter: brightness(0.5);
+
+}
+
+.text {
+    position: relative;
+    /* Garante que o texto fique no topo */
+    color: #fff;
+    /* Deixa o texto branco para contraste */
+    font-size: 3rem;
+    z-index: 1;
+    /* Mantém o texto na frente */
+    display: flex;
+    justify-content: center;
+}
+
+.textCenter, .textCenterTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10rem;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.budget{
+    color: #ea3b1a;
+}
+
+.bodyimage  {
+    width: 250px;
+    height: 250px;
+    margin-right: 250px;
+}
