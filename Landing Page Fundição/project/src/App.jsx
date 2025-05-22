@@ -5,6 +5,8 @@ import Bodytwo from './components/Bodytwo'
 import History from './components/History'
 import Bodythree from './components/bodythree'
 import Bodyfor from './components/Bodyfor'
+import Cot from './components/Cot'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <History />
         <Bodythree />
         <Bodyfor />
+        <Cot />
+        <Footer />
       </div>
     </>
   )
